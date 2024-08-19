@@ -11,6 +11,8 @@ function Home() {
     const message = musicContext.message;
     const tracks = musicContext.tracks
     
+    console.log({tracks});
+    
     return (
         <div>
             <div className="row">
